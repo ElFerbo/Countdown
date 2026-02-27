@@ -19,9 +19,10 @@ stunden = delta.seconds // 3600
 minuten = (delta.seconds % 3600) // 60
 
 st.subheader(f"Heute ist der {atlanta_now.strftime('%d.%m.%Y')}.")
-st.subheader(f"⏳ Es verbleiben noch {tage_bis} Tage bis zum 30.05.2026 !")
-#st.subheader(f"⏳ Es verbleiben noch {tage} Tage, {stunden} Stunden und {minuten} Minuten bis zum 30.05.2026 !")
+#st.subheader(f"⏳ Es verbleiben noch {tage_bis} Tage bis zum 30.05.2026 !")
+st.subheader(f"⏳ Es verbleiben noch {tage} Tage, {stunden} Stunden und {minuten} Minuten bis zum 30.05.2026 !")
 st.balloons()
+
 
 
 
